@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Vid1 from "./Vid1";
 import SearchIcon from "@mui/icons-material/Search";
 import { Box } from "@mui/material";
 import Typography from "@material-ui/core/Typography";
@@ -11,16 +11,15 @@ export class Firstpg extends Component {
       <div className="Firstpg">
         <div className="searchbox">
           <input
-            className="input"
-            type="text"
-            // id="message"
-            // name="message"
-            // onChange={handleChange}
-            // value={message}
+          // className="input"
+          // type="text"
+          // id="message"
+          // name="message"
+          // onChange={handleChange}
+          // value={message}
           />
-
-          {/* <svg data-testid="SearchIcon"></svg> */}
         </div>
+        <Vid1 />
       </div>
     );
   }

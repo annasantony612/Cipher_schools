@@ -50,7 +50,7 @@ padding: 50px;
 .searchbox{
   
  
-  background-color: wheat;
+  background-color: white;
   /* min-height: 10vh; */
   display: flex;
   /* flex-direction: column; */
@@ -60,10 +60,15 @@ padding: 50px;
   /* margin-top: 30px; */
   margin-left: 160px;
   margin-right: 160px;
-padding: 20px;
+padding: 10px;
   /* border-width:10px ;
   border-color: black; */
-  border: 2px solid red;
-  border-radius: 15px;
+  border: 2px solid black;
+  border-radius: 50px;
+  
+}
+.input{
+  width:100%;
+ outline-color: white;
   
 }

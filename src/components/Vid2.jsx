@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 import Paris from "../assets/Paris.mp4";
 import Button from "./Button";
 
@@ -7,16 +7,15 @@ const Vid2 = () => {
   return (
     <div className="VidMain">
       <div className="VideoLeft">
-        {/* <div className="video"></div> */}
+       
         <video src={Paris} autoPlay loop muted />
 
         <div>
-          <Button
-            onClick={() => alert("Button clicked!")}
-            className="buttontext"
-          >
+        <Link to="/Sec2" link={Paris}>
+        <Button>
             Tap to play
           </Button>
+        </Link>
         </div>
       </div>
       <div className="VideoRight">

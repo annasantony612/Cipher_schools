@@ -1,6 +1,7 @@
 import React from "react";
 import Hongkong from "../assets/Hongkong.mp4";
 import Button from "./Button";
+import { Link } from 'react-router-dom';
 
 const Vid5 = () => {
   return (
@@ -10,12 +11,11 @@ const Vid5 = () => {
         <video src={Hongkong} autoPlay loop muted />
 
         <div>
-          <Button
-            onClick={() => alert("Button clicked!")}
-            className="buttontext"
-          >
+        <Link to="/Sec5" link={Hongkong}>
+        <Button>
             Tap to play
           </Button>
+        </Link>
         </div>
       </div>
       <div className="VideoRight">

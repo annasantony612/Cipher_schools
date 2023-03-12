@@ -1,6 +1,7 @@
 import React from "react";
 import Locos from "../assets/Locos.mp4";
 import Button from "./Button";
+import { Link } from 'react-router-dom';
 
 const Vid3 = () => {
   return (
@@ -10,12 +11,11 @@ const Vid3 = () => {
         <video src={Locos} autoPlay loop muted />
 
         <div>
-          <Button
-            onClick={() => alert("Button clicked!")}
-            className="buttontext"
-          >
+        <Link to="/Sec3" link={Locos}>
+        <Button>
             Tap to play
           </Button>
+        </Link>
         </div>
       </div>
       <div className="VideoRight">

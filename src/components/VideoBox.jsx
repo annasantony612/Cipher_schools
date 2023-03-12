@@ -4,7 +4,7 @@ import React from "react";
 import Vid1 from "./Vid1";
 import Vid2 from "./Vid2";
 import Vid3 from "./Vid3";
-import Vid4 from "./vid4";
+import Vid4 from "./Vid4";
 import Vid5 from "./Vid5";
 import Vid6 from "./Vid6";
 import Vid7 from "./Vid7";

@@ -47,3 +47,4 @@ export class Firstpg extends Component {
 }
 
 export default Firstpg;
+

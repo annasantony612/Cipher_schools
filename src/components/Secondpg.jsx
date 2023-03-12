@@ -1,10 +1,12 @@
 import React from "react";
 import SecpgBG from "../assets/SecpgBG.png"
+import Italy from "../assets/Italy.mp4";
 import like from "../assets/like.png"
+import share from "../assets/share.png"
 import Button from "./Button";
 import { useState } from 'react';
 
-const Secondpg = ({link}) => {
+const Secondpg = () => {
     const [value, setValue] = useState(0);
 
     const handleClick = () => {
@@ -25,11 +27,12 @@ const Secondpg = ({link}) => {
         </div>
        <div className="secpgsub">
                 <div className="sVidL">
-                <video src={link} autoPlay loop  />
+                <video src={Italy} autoPlay loop  />
                 <div className="like">
                 
       <button onClick={handleClick}>  <img src={like} /></button>
       {value} likes
+      <button onClick={handleClick}>  <img src={share} /></button>
                 {/* <Button >
                 <img src={like} />
               
